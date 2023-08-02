@@ -1,0 +1,17 @@
+Git clone https://github.com/xSNOWM4Nx/react-flight-tracker.git
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/jattride/.profile
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+brew install node
+
+npm install 
+
+ touch .env.local
+
+REACT_APP_MAPBOX_TOKEN=pk.eyJ1IjoiZWR3aW5tYXoiLCJhIjoiY2xrbDdyb2M4MHJlcjNsbjZjNGxlZ3ZhcCJ9.1_tU-g8zMj1tzLvvfZjyGw
+REACT_APP_OSKY_USERNAME=edwinmaz
+REACT_APP_OSKY_PASSWORD=eccp1234
